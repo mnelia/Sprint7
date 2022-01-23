@@ -5,13 +5,13 @@ import UserWelcome from "../pages/UserWelcome";
 
 
 
-const Routing = () => {
+const Routing = () => (
     <BrowserRouter>
         <Routes>
            <Route path="/" element={<UserWelcome />} /> 
            <Route path="/Main" element={<Main />} /> 
         </Routes>
         </BrowserRouter>
-};
+);
 
 export default Routing;
